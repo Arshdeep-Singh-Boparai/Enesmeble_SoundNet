@@ -4,7 +4,7 @@ This code is an ensemble framework on intermediate representations of SoundNet f
 
 Flow chart of the code:
 (a) Extract intermediate representations from various interediate layers using raw-audio as input. Apply global average pooling across each feature map.
-(b) Train classifier using npn-linear SVM and apply late fusion. ("layer_classifier.py")
+(b) Train classifier using non-linear SVM and apply late fusion. ("layer_classifier.py")
 
 
 

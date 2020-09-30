@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 #%%
-
+'''
 os.chdir('/home/arshdeep/DCASE2016/numpy/FOLD1')
 print("Data Read")
 labels=np.load('labels_train.npy')
@@ -75,6 +75,7 @@ ex_test23=np.load('ex_test23.npy')
 ex24=np.load('ex24.npy')
 ex_test24=np.load('ex_test24.npy')
 #%%
+'''
 '''
 ex_test_challenge_4=np.load('ex_test_chal4.npy')
 ex_test_challenge_6=np.load('ex_test_chal6.npy')
